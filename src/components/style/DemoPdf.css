@@ -1,0 +1,43 @@
+.page-break {
+    page-break-after: always;
+    page-break-inside: avoid;
+    clear: both;
+}
+
+.page-break-before {
+    page-break-before: always;
+    page-break-inside: avoid;
+    clear: both;
+}
+
+.newpage {
+    page-break-before: always;
+    margin-top: 100px;
+}
+
+.home-product-item__img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+}
+
+.img-style {
+    width: 100px;
+}
+
+
+
+#myCanvas {
+    width: 400px;
+    height: 250px;
+    border: 2px solid #000;
+    float: left
+}
+
+#imgConverted {
+    float: left;
+    border: 2px solid #00f;
+    margin-left: 10px
+}

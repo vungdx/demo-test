@@ -1,0 +1,31 @@
+@media screen {
+  #printSection {
+    display: block;
+    background-color: red;
+  }
+
+  .wrapper-print {
+    background-color: #fff;
+    width: 80%;
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .main-print {
+    padding: 25px;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #printSection,
+  #printSection * {
+    visibility: visible;
+  }
+}
