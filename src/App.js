@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DemoTooltip from "./components/DemoTooltip";
+import TestBase64 from "./components/TestBase64";
 
 class App extends Component {
   constructor(props) {
@@ -8,7 +8,7 @@ class App extends Component {
   }
 
   render() {
-    return <DemoTooltip />;
+    return <TestBase64 />;
   }
 }
 
